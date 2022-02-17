@@ -1,5 +1,5 @@
 * {
-  font-family: "Open Sans", sans-serif;
+  --font-family: "JetBrains Mono", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
@@ -8,12 +8,12 @@
 
 
 .home-title {
-  margin-top: 3rem;
-  font-weight: 700;
-  font-size: 3rem;
+  margin-top: 1.3rem;
+  font-weight: 300;
+  font-size: 2rem;
   text-align: center;
   color: black;
-  font-family: "Open Sans", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
 }
 
 
@@ -54,6 +54,9 @@
   --margin: 0px;
   --font-weight: 700;
   --font-size: 1.3rem;
+  font-size: 2rem;
+  padding-left: 10px;
+  --margin-top: 5px;
   text-decoration: none;
   color: black;
   font-family: "Open Sans", sans-serif;
@@ -61,6 +64,9 @@
 
 .card-date {
   --margin: 1rem;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
   font-size: 0.80rem;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
@@ -68,8 +74,9 @@
 
 .card-description {
   margin-top: 1rem;
+  padding-left: 10px;
   color: #707070;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Open Sans", sans-serif;
 }
 

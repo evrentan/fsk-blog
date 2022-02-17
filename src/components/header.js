@@ -1,33 +1,28 @@
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 import React from "react";
 //import Contact from "../pages/Contact"
 
-
-const Header = ({ siteTitle, siteDescription }) => {
+//style={{textDecoration: 'none', textAlign: 'center', marginLeft: '18px', marginRight: '18px'}}
+// style={{textDecoration: 'none', textAlign: 'center'}}
+const Header = () => {
   return (
 
     <div className="container mt-5">
       <ul className="nav justify-content-center">
-        <li className="nav-item mr-10">
-          <Link to="/">
-            Home
-          </Link>
-        </li>
-        <li className="nav-item mr-10">
-          <Link to="/blog">
+        <li className="nav-item">
+          <a href="/" className="nav-link">
             Blog
-          </Link>
+          </a>
         </li>
-        <li className="nav-item mr-10">
-          <Link to="/Contact">
-            Contact
-          </Link>
-        </li>
-
-        <li className="nav-item mr-10">
-          <Link to="/AboutMe">
+        <li className="nav-item">
+          <a href="/AboutMe" className="nav-link">
             About Me
-          </Link>
+          </a>
+        </li>
+        <li className="nav-item">
+          <a href="/Contact" className="nav-link">
+            Contact
+          </a>
         </li>
 
       </ul>

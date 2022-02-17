@@ -9,6 +9,7 @@ export default function Home({ data, location }) {
   const posts = data.allMdx.nodes;
 
   return (
+    
     <Container>
       <SEO title={siteTitle} description={siteDescription} />
       <h1 className="home-title">Welcome to our Blog</h1>

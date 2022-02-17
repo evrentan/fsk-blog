@@ -3,8 +3,8 @@ import Footer from "./footer";
 import Header from "./header";
 const Container = ({ children }) => {
   return (
-    <div>
-      <div className="container">
+    <div className="container">
+      <div>
         <Header />
         <main className="main">{children}</main>
       </div>

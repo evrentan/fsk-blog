@@ -8,10 +8,6 @@ const Footer = () => {
 
                 <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
-                    <div className="me-5 d-none d-lg-block">
-                        <span>Get connected with us on social networks:</span>
-                    </div>
-
                     <div>
                         <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer" href="https://twitter.com/0xfsk" target="_blank" className="me-4 text-reset">
                             <p className="twitter">Twitter</p>

@@ -6,6 +6,7 @@ const AboutMe = () => {
         <div className="container">
             <div className="row">
                 Merhaba
+                Merhaba
             </div>
         </div>
     );

@@ -16,12 +16,16 @@ export default function Home({ data, location }) {
         const title = post.frontmatter.title || post.fields.slug;
 
         return (
-          <div className="card" key={post.slug}>
-            <Link className="card-link" to={post.slug}>
-              <h1 className="card-title">{title}</h1>
-              <p className="card-date">{post.frontmatter.date}</p>
-              <p className="card-description">{post.frontmatter.description}</p>
-            </Link>
+          <div className="container">
+            <div className="card">
+              <div className="card-title" key={post.slug}>
+                <Link className="card-link" to={post.slug}>
+                  <h1 className="card-title">{title}</h1>
+                  <p className="card-date">{post.frontmatter.date}</p>
+                  <p className="card-description">{post.frontmatter.description}</p>
+                </Link>
+              </div>
+            </div>
           </div>
         );
       })}

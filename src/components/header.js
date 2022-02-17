@@ -1,22 +1,34 @@
 import React from "react";
+import Contact from "./contact";
 
 const Header = ({ siteTitle, siteDescription }) => {
   return (
-    <div className="sticky-nav">
-      <a href="/" className="sticky-nav-button">
-        Home
-      </a>
-      <div className="sticky-nav-stack">
-        <a href="/" className="sticky-nav-button">
-          Blog
-        </a>
-        <a href="/" className="sticky-nav-button">
-          Contact{" "}
-        </a>
-        <a href="/" className="sticky-nav-button">
-          About us
-        </a>
-      </div>
+
+    <div className="container mt-5">
+      <ul className="nav justify-content-center">
+        <li className="nav-item">
+          <a href="/" className="nav-link ">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a href="/" className="nav-link ">
+            Blog
+          </a>
+        </li>
+        <li className="nav-item">
+          <a href="/" className="nav-link ">
+            <Contact />
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a href="/" className="nav-link ">
+            About us
+          </a>
+        </li>
+
+      </ul>
     </div>
   );
 };

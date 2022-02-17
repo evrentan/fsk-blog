@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer";
 import Header from "./header";
 const Container = ({ children }) => {
   return (
@@ -7,6 +8,8 @@ const Container = ({ children }) => {
         <Header />
         <main className="main">{children}</main>
       </div>
+      <hr />
+      <Footer />
     </div>
   );
 };

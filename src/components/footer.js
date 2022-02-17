@@ -13,19 +13,19 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <a style={{display: 'inline-block', textDecoration: 'none'}} href="https://twitter.com/0xfsk" target="_blank" className="me-4 text-reset">
+                        <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer" href="https://twitter.com/0xfsk" target="_blank" className="me-4 text-reset">
                             <p className="twitter">Twitter</p>
                         </a>
-                        <a style={{display: 'inline-block', textDecoration: 'none'}} href="https://instagram.com/furkansahinkulaksiz" target="_blank" className="me-4 text-reset">
+                        <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer" href="https://instagram.com/furkansahinkulaksiz" target="_blank" className="me-4 text-reset">
                             <p className="instagram">Instagram</p>
                         </a>
-                        <a style={{display: 'inline-block', textDecoration: 'none'}} href="https://github.com/fsk" target="_blank" className="me-4 text-reset">
+                        <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer" href="https://github.com/fsk" target="_blank" className="me-4 text-reset">
                             <p className="github">Github</p>
                         </a>
-                        <a style={{display: 'inline-block', textDecoration: 'none'}} href="https://superpeer.com/fsk" target="_blank" className="me-4 text-reset">
+                        <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer" href="https://superpeer.com/fsk" target="_blank" className="me-4 text-reset">
                             <p className="superpeer">Superpeer</p>
                         </a>
-                        <a style={{display: 'inline-block', textDecoration: 'none'}} href="https://superpeer.com/fskdev" target="_blank" className="me-4 text-reset">
+                        <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer"href="https://superpeer.com/fskdev" target="_blank" className="me-4 text-reset">
                             <p className="medium">Medium</p>
                         </a>
                     </div>

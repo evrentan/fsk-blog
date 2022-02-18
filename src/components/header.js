@@ -7,7 +7,7 @@ import React from "react";
 const Header = () => {
   return (
 
-    <div className="container mt-5">
+    <div className="container mt-5" style={{fontFamily: 'JetBrains Mono'}}>
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <a href="/" className="nav-link">

@@ -29,11 +29,11 @@ const Header = () => {
             Experience
           </a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a href="/Contact" className="nav-link">
             Contact
           </a>
-        </li>
+        </li> */}
 
       </ul>
     </div>

@@ -21,7 +21,7 @@ const blogPosts = ({ data, pageContext }) => {
         <>
           {previous && (
             <Link to={previous.fields.slug}>
-              <button className="previous-next-button">
+              <button className="previous-next-button btn btn-secondary btn-lg col-md-3 col-lg-4 col-sm-4">
                 {previous.frontmatter.title}
               </button>
             </Link>
@@ -32,7 +32,7 @@ const blogPosts = ({ data, pageContext }) => {
         <>
           {next && (
             <Link to={next.fields.slug}>
-              <button className="previous-next-button">
+              <button className="previous-next-button btn btn-secondary btn-lg col-md-3 col-lg-4 col-sm-4">
                 {next.frontmatter.title}
               </button>
             </Link>

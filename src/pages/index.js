@@ -2,6 +2,8 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import SEO from "../components/seo";
 import Container from "../components/container";
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 const Home = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`;

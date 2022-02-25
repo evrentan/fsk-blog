@@ -13,15 +13,27 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-dark-mode`,
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: [`.mdx`, `.md`],
+        extensions: [".mdx", ".md"],
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-highlight-code`,
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
           },
-        ]
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: 'carbon',
+              theme: 'blackboard'
+            }
+          },
+        ],
       },
     },
     {
@@ -31,37 +43,6 @@ module.exports = {
         name: `blog`,
       },
     },
-    `gatsby-plugin-sharp`,
-    `gatsby-remark-images`,
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1200,
-            },
-          },
-        ],
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-highlight-code`
-          },
-        ],
-      },
-    },
-    {
-      resolve: `gatsby-remark-highlight-code`,
-      options: {
-        terminal: 'carbon',
-        theme: 'blackboard'
-      }
-    },
+
   ],
 };

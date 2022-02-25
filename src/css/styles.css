@@ -33,7 +33,8 @@ body.dark {
 
 body *::selection {
   background: var(--link);
-  color: #fff;
+  color: var(--bg);
+  background-color: var(--primaryText);
 }
 
 

@@ -1,8 +1,11 @@
 import { graphql, Link } from "gatsby";
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import React from "react";
 import Container from "../components/container";
+
+deckDeckGoHighlightElement();
 
 const blogPosts = ({ data, pageContext }) => {
   const { frontmatter, body } = data.mdx;

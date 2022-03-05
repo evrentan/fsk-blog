@@ -54,6 +54,7 @@ const Home = ({ data, location }) => {
 
   return (
     <Container>
+      <hr></hr>
       <SEO title={siteTitle} description={siteDescription} />
       <h1 className="home-title">{siteTitle}</h1>
       <div className="input-group container mb-5 mt-5">

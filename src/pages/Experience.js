@@ -9,6 +9,8 @@ const Experience = () => {
         <div className="container">
             <Header />
 
+            <hr></hr>
+
             <br></br>
 
             <div className="col text-center">

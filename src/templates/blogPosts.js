@@ -13,6 +13,7 @@ const blogPosts = ({ data, pageContext }) => {
   console.log(data.mdx.html);
   return (
     <Container>
+      <hr></hr>
       <h1 className="post-heading">{frontmatter.title}</h1>
       <p className="post-date">{frontmatter.date}</p>
 

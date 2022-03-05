@@ -7,34 +7,28 @@ import React from "react";
 const Header = () => {
   return (
 
-    <div className="container mt-5" style={{fontFamily: 'JetBrains Mono'}}>
+    <div className="container mt-5" style={{fontFamily: 'JetBrains Mono', fontSize: '2rem'}}>
       <ul className="nav justify-content-center">
-        <li className="nav-item">
+        <li className="nav-item" style={{marginRight: '1rem'}}>
           <a href="/" className="nav-link">
             Blog
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" style={{marginRight: '1rem'}}>
           <a href="/AboutMe" className="nav-link">
             About Me
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" style={{marginRight: '1rem'}}>
           <a href="/Education" className="nav-link">
             Education
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" style={{marginRight: '1rem'}}>
           <a href="/Experience" className="nav-link">
             Experience
           </a>
         </li>
-        {/* <li className="nav-item">
-          <a href="/Contact" className="nav-link">
-            Contact
-          </a>
-        </li> */}
-
       </ul>
     </div>
   );

@@ -8,13 +8,14 @@ const AboutMe = () => {
     return (
         <div className="container">
             <Header />
+            <hr></hr>
             <div className="row" style={{ fontSize: '10px' }}>
 
-                <img
-                    style={{ width: '150px', height: '170px', padding: '0px', marginTop: '20px', border: '2px solid linear-gradient(red, yellow)' }}
+                {/* <img
+                    style={{ width: '150px', height: '170px', padding: '2px', float: 'left', marginRight: '30px' }}
                     src={`../../profil.PNG`}
                     alt=""
-                    className="rounded-circle mx-auto d-block" />
+                    className="rounded-circle mx-auto d-block" /> */}
 
                 <div style={{ fontFamily: 'JetBrains Mono', marginTop: '10px' }}>
                     <h3 style={{ display: 'inline-block' }}>Selam Herkese</h3>

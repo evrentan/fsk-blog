@@ -8,7 +8,7 @@ const Education = () => {
     return (
         <div className="container">
             <Header />
-
+            <hr></hr>
             <ul class="list-group list-group-flush" style={{ marginTop: '20px' }}>
                 <li class="list-group-item">
                     <h4>Yüksek Lisans</h4>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My World`,
+    title: `FSK Tech Blog`,
     author: {
       name: `Furkan Şahin Kulaksız`,
       summary: `Software Developer`,

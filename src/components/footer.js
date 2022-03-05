@@ -21,7 +21,7 @@ const Footer = () => {
                         <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer" href="https://superpeer.com/fsk" target="_blank" className="me-4 text-reset">
                             <p className="superpeer">Superpeer</p>
                         </a>
-                        <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer"href="https://superpeer.com/fskdev" target="_blank" className="me-4 text-reset">
+                        <a style={{display: 'inline-block', textDecoration: 'none'}} rel="noreferrer"href="https://fskdev.medium.com" target="_blank" className="me-4 text-reset">
                             <p className="medium">Medium</p>
                         </a>
                     </div>

@@ -9,6 +9,15 @@ const Experience = () => {
         <div className="container">
             <Header />
 
+            <br></br>
+
+            <div className="col text-center">
+                <button 
+                    type="button" 
+                    class="btn btn-outline-primary">
+                        <a style={{textDecoration: 'none'}} download={`Furkan_Sahin_Kulaksiz`} href={`../../cv.pdf`}>Downlad My CV</a>
+                </button>
+            </div>
             <ul class="list-group list-group-flush" style={{ marginTop: '20px' }}>
                 <li class="list-group-item">
                     <h4>VBT Yazılım A.Ş.</h4>

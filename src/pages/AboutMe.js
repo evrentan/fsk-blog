@@ -45,7 +45,7 @@ const AboutMe = () => {
 
                         <br></br><br></br>
                         Üniversiteden mezun olduktan sonra da faaliyetlere devam ettim aslında. Önce yüksek lisansa kabul aldım. Sonrasında Turkey Java Community'yi Evren Tan Abim ile birlikte kurduk. Aslına bakarsanız kendisinin mental anlamda da 
-                        tedrisatından geçiyorum diyebilirim. (: Sektörden çok önemli isimler tanıdım bu komünite sayesinde. Serkan Bingöl Abi olsun, Umut Kahraman olsun, Serhat Can olsun hepsiyle muhabbetim genişledi. Umarım çok güzel günler bizi bekliyor. (:
+                        tedrisatından geçiyorum diyebilirim. Ona layık olabilirsem kariyerimde ne mutlu bana. (: Sektörden çok önemli isimler tanıdım bu komünite sayesinde. Serkan Bingöl Abi olsun, Umut Kahraman olsun, Serhat Can olsun hepsiyle muhabbetim genişledi. Umarım çok güzel günler bizi bekliyor. (:
 
 
                         <br></br><br></br>

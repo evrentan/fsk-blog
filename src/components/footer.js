@@ -29,7 +29,7 @@ const Footer = () => {
                 </section>
 
                 <div className="text-center p-4">
-                    © 2022 Copyright
+                    © {new Date().getFullYear()} Copyright
                     <p className="text-reset fw-bold">All Right Reserved by FSK</p>
                 </div>
 

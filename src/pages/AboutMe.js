@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="container">
             <Header />
             <hr></hr>
-            <div className="row" style={{ fontSize: '10px' }}>
+            <div className="row" style={{ fontSize: '20px' }}>
 
                 {/* <img
                     style={{ width: '150px', height: '170px', padding: '2px', float: 'left', marginRight: '30px' }}
@@ -21,21 +21,21 @@ const AboutMe = () => {
                     <h3 style={{ display: 'inline-block' }}>Selam Herkese</h3>
 
                     <p>
-                        Ben Furkan Şahin KULAKSIZ (FSK) <br></br>
+                        Ben Furkan Şahin KULAKSIZ (FSK) (: <br></br>
                         Aslında basit bir Software Developer'ım. VBT Yazılım'da ARGE ekibinde Software Developer olarak çalışıyorum. <br></br>
                         Genellikle JVM (Genelde Java - Spring Boot) ve Javascript dillerinde / frameworklerinde kendimi geliştiriyorum.<br></br>
                         Aynı Zamanda <a style={{ textDecoration: 'none' }} href="https://www.turkeyjava.com/">Turkey Java Community</a> nin Co-Founder'iyim.
-                        Kendimi bildim bileli <b>Matematik Sanatı</b>'na karşı bir ilgim vardır. <a href="https://beyinsizler.net" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>beyinsizler.net</a>
+                         <br /><br />
+                        <p>Kendimi bildim bileli <b>Matematik Sanatı</b>'na karşı bir ilgim vardır. <a href="https://beyinsizler.net" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>beyinsizler.net</a>
                         sayfasında Matematik üzerine metin yazarlığı yaptım. Tarihini tam hatırlamamakla birlikte bulabildiğim yazılarım aslında şunlar;
+                        <ul>
+                            <li><a href="https://beyinsizler.net/e-sayisi-nedir" rel="noreferrer" style={{ textDecoration: 'none' }}>E Sayısı Nedir.?</a></li>
+                            <li><a href="https://beyinsizler.net/tesekkur-etmemiz-gereken-denklemler-ve-denklemlerin-kullanim-alanlari/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>Teşekkür Etmemiz Gereken Denklemler</a></li>
+                            <li><a href="https://beyinsizler.net/integral/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>Integral</a></li>
+                            <li><a href="https://beyinsizler.net/trigonometri-nedir-3-kenarli-metride-olcu-trigonometri-tarihi/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>3 Kenarlı Metride Ölçü - Trigonometri</a></li>
+                        </ul></p>
+
                         <br />
-                        <a href="https://beyinsizler.net/e-sayisi-nedir" rel="noreferrer" style={{ textDecoration: 'none' }}>E Sayısı Nedir.?</a>
-                        <br />
-                        <a href="https://beyinsizler.net/tesekkur-etmemiz-gereken-denklemler-ve-denklemlerin-kullanim-alanlari/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>Teşekkür Etmemiz Gereken Denklemler</a>
-                        <br />
-                        <a href="https://beyinsizler.net/integral/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>Integral</a>
-                        <br />
-                        <a href="https://beyinsizler.net/trigonometri-nedir-3-kenarli-metride-olcu-trigonometri-tarihi/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>3 Kenarlı Metride Ölçü - Trigonometri</a>
-                        <br /> <br></br>
                         <b>Satranc</b>a karşı da çok özel bir ilgim vardır. 8 yaşımdan beri amatörce oynarım. İlkokulda bir kaç kere öğretmenlerimizin turnuvaya götürdüğünü hatırlıyorum. Ama, ilk majör turnuvam 2009 senesinde Lise1'de yapılan 
                         Ankara Liselerarası turnuvasıydı. Sanırım Ankara genelinde 156. olmuştum. (: Ama bir sonraki sene Ankara Etimesgut ilçesinde takım halinde ilçe şampiyonu olmuştuk. (:
 
